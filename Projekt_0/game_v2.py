@@ -14,11 +14,20 @@ def random_predict(number:int=1) -> int:
         int: Число попыток
     """
     count = 0
+    number = np.random.randint(1, 100)
+    min = 0
+    max = 100
     while True:
         count += 1
-        predict_number = np.random.randint(1, 101) # предполагаемое число
+        predict_number = round((min + max)/2) # предполагаемое число
         if number == predict_number:
             break # выход из цикла, если угадали
+        elif number > predict_number:
+            min = predict_number
+            predict_number = round(min + max)/2
+        elif number < predict_number:
+            max = predict_number
+            predict_number = round (min + max)/2
     return(count)
 print(f'Количество попыток: {random_predict()}')    
 
