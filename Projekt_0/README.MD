@@ -1,12 +1,9 @@
 # Проект 0. Угадай число
 
 ## Оглавление  
-[1. Описание проекта](https://github.com/Pese1/DST/tree/main/Projekt_0.README.md#Описание-проекта)  
-[2. Какой кейс решаем?](https://github.com/Pese1/DST/tree/main/Projekt_0#%D0%BA%D1%80%D0%B0%D1%82%D0%BA%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%BE-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)  
-[3. Краткая информация о данных](https://github.com/Pese1/DST/tree/main/Projekt_0.README.md#Краткая-информация-о-данных)  
-[4. Этапы работы над проектом](https://github.com/Pese1/DST/tree/main/Projekt_0.README.md#Этапы-работы-над-проектом)  
-[5. Результат](https://github.com/Pese1/DST/tree/main/Projekt_0.README.md#Результат)    
-[6. Выводы](https://github.com/Pese1/DST/tree/main/Projekt_0.README.md#Выводы) 
+[1. Описание проекта](https://github.com/Pese1/DST/tree/main/Projekt_0#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)  
+[2. Какой кейс решаем?](https://github.com/Pese1/DST/tree/main/Projekt_0#%D0%BA%D0%B0%D0%BA%D0%BE%D0%B9-%D0%BA%D0%B5%D0%B9%D1%81-%D1%80%D0%B5%D1%88%D0%B0%D0%B5%D0%BC)  
+
 
 ### Описание проекта    
 Угадать загаданное компьютером число за минимальное число попыток.
@@ -29,7 +26,9 @@
 
 **Что практикуем**     
 Учимся писать хороший код на python
+
 Учимся работать с IDE.
+
 Учимся работать с GitHub.
 
 
