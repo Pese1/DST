@@ -14,19 +14,19 @@ def random_predict(number:int=1) -> int:
         int: Число попыток
     """
     count = 0 # Вводим счётчик попыток
-    number = np.random.randint(1, 101) # присваиваем переменной number сгенерированное число
+    predict_number = np.random.randint(1,101)
     min = 0 # задаём минимальное значение в переменной min
     max = 100 # максимум в max
     while True:
         count += 1
-        predict_number = round((min + max)/2) # предполагаемое число округлённое среднее между min и max (50)
+        
         if number == predict_number:
             break # выход из цикла, если угадали
-        elif number > predict_number: # если загаданное число больше предполагаемого (> 50)
-            min = predict_number # предполагаемое становится минимальным
-            predict_number = round(min + max)/2 # новое предполагаемое число - это среднее между 50 и 100 
-        elif number < predict_number: # если загаданное меньше
-            max = predict_number # предполагаемое становится максимальным
+        elif number > predict_number: 
+            min = predict_number 
+            predict_number = round(min + max)/2
+        elif number < predict_number: 
+            max = predict_number 
             predict_number = round (min + max)/2
     return(count)
 print(f'Количество попыток: {random_predict()}')    
