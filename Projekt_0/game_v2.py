@@ -4,7 +4,7 @@
 import numpy as np
 
 
-def random_predict(number:int=1) -> int:
+def random_predict(number:int=np.random.randint(1, 101)) -> int:
     """Рандомно угадываем число
 
     Args:
@@ -14,7 +14,7 @@ def random_predict(number:int=1) -> int:
         int: Число попыток
     """
     count = 0 # Вводим счётчик попыток
-    predict_number = np.random.randint(1,101)
+    predict_number = np.random.randint(1,101) # генерируем предполагаемое число
     min = 0 # задаём минимальное значение в переменной min
     max = 100 # максимум в max
     while True:
